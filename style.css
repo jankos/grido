@@ -1,0 +1,112 @@
+/* =============================================================================
+    Basic styles
+============================================================================= */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    background: #99B2B7;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {font-size: 36px; font-family: 'Roboto Slab', sans-serif;}
+h2 {font-size: 28px;}
+h3 {font-size: 24px;}
+h4 {font-size: 18px;}
+h5 {font-size: 16px;}
+h6 {font-size: 14px;}
+
+
+p {
+    margin: 0;
+    line-height: 150%;
+    text-align: justify;
+}
+
+a {
+    color: #7A6A53;
+}
+
+/* =============================================================================
+    Modules
+============================================================================= */
+.module {
+    padding: 5px;
+}
+
+.slim .module {
+    padding: 0;
+}
+
+.module h2 {
+    padding: 5px 0;
+}
+
+.module p {
+    padding: 5px 0;
+}
+
+/* -----------------------------------------------------------------------------
+    header
+----------------------------------------------------------------------------- */
+#header {
+    background: #948C75;
+    color: #D9CEB2;
+}
+
+/* -----------------------------------------------------------------------------
+    main menu
+----------------------------------------------------------------------------- */
+#menu {
+    background: #7A6A53;
+    color: #FFFFFF;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* -----------------------------------------------------------------------------
+    main container
+----------------------------------------------------------------------------- */
+#main {
+    background: #D5DED9;
+}
+
+/* -----------------------------------------------------------------------------
+    footer
+----------------------------------------------------------------------------- */
+#footer {
+    background: #948C75;
+    color: #D9CEB2;
+}
+
+#footer a {
+    color: #D9CEB2;
+}
