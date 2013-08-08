@@ -19,8 +19,16 @@
     float: left;
 }
 
+.cell {
+    padding: 5px;
+}
+
 .slim .column {
     margin: 0;
+}
+
+.slim .cell {
+    padding: 0;
 }
 
 .col-abcdef {width: 950px;}

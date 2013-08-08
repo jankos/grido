@@ -39,39 +39,31 @@ a {
 }
 
 /* =============================================================================
-    Modules
+    Cells
 ============================================================================= */
-.module {
-    padding: 5px;
-}
-
-.slim .module {
+.col-a .cell,
+.col-b .cell,
+.col-c .cell,
+.col-d .cell,
+.col-e .cell,
+.col-f .cell {
     padding: 0;
 }
 
-.col-a .module,
-.col-b .module,
-.col-c .module,
-.col-d .module,
-.col-e .module,
-.col-f .module {
-    padding: 0;
-}
-
-.col-a .module img,
-.col-b .module img,
-.col-c .module img,
-.col-d .module img,
-.col-e .module img,
-.col-f .module img {
+.col-a .cell img,
+.col-b .cell img,
+.col-c .cell img,
+.col-d .cell img,
+.col-e .cell img,
+.col-f .cell img {
     display: inline-block;
 }
 
-.module h2 {
+.cell h2 {
     padding: 5px 0;
 }
 
-.module p {
+.cell p {
     padding: 5px 0;
 }
 
