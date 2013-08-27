@@ -36,8 +36,6 @@
 .col-abc, .col-def {width: 470px;}
 .col-ab, .col-cd, .col-ef {width: 310px;}
 
-.col-a, .col-b, .col-c, .col-d, .col-e, .col-f {width: 150px;}
-
 .slim .col-abcdef {width: 960px;}
 .slim .col-abcd, .slim .col-cdef {width: 640px;}
 .slim .col-abc, .slim .col-def {width: 480px;}

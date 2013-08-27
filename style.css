@@ -41,24 +41,6 @@ a {
 /* =============================================================================
     Cells
 ============================================================================= */
-.col-a .cell,
-.col-b .cell,
-.col-c .cell,
-.col-d .cell,
-.col-e .cell,
-.col-f .cell {
-    padding: 0;
-}
-
-.col-a .cell img,
-.col-b .cell img,
-.col-c .cell img,
-.col-d .cell img,
-.col-e .cell img,
-.col-f .cell img {
-    display: inline-block;
-}
-
 .cell h2 {
     padding: 5px 0;
 }
