@@ -109,3 +109,70 @@ a {
 #footer a {
     color: #D9CEB2;
 }
+
+/* =============================================================================
+    Grid view
+============================================================================= */
+/* -----------------------------------------------------------------------------
+    xsmall
+----------------------------------------------------------------------------- */
+@media all and (min-width: 0px) and (max-width: 479px) {
+    #gridview {
+        width: 320px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        margin-left: -160px;
+        background: url(320.png) repeat-y;
+        opacity: 0.5;
+    }
+}
+
+/* -----------------------------------------------------------------------------
+    small
+----------------------------------------------------------------------------- */
+@media all and (min-width: 480px) and (max-width: 639px) {
+    #gridview {
+        width: 480px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        margin-left: -240px;
+        background: url(480.png) repeat-y;
+        opacity: 0.5;
+    }
+}
+
+/* -----------------------------------------------------------------------------
+    medium
+----------------------------------------------------------------------------- */
+@media all and (min-width: 640px) and (max-width: 959px) {
+	#gridview {
+        width: 640px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        margin-left: -320px;
+        background: url(640.png) repeat-y;
+        opacity: 0.5;
+    }
+}
+
+/* -----------------------------------------------------------------------------
+	large
+----------------------------------------------------------------------------- */
+@media all and (min-width: 960px) {
+    #gridview {
+        width: 960px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        margin-left: -480px;
+        background: url(960.png) repeat-y;
+        opacity: 0.5;
+    }
+}
