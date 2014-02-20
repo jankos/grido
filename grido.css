@@ -2,7 +2,7 @@
     Grid
 ============================================================================= */
 .grid {
-    width: 960px;
+    width: 990px;
     margin: 0 auto;
     clear: both;
     overflow: auto;
@@ -13,33 +13,24 @@
     overflow: auto;
 }
 
-.column {
-    margin: 5px;
+.col {
+    margin: 0;
+    padding: 0;
     overflow: auto;
     float: left;
 }
 
 .cell {
-    padding: 5px;
-}
-
-.slim .column {
+    padding: 0;
     margin: 0;
 }
 
-.slim .cell {
-    padding: 0;
-}
-
-.col-abcdef {width: 950px;}
-.col-abcd, .col-cdef {width: 630px;}
-.col-abc, .col-def {width: 470px;}
-.col-ab, .col-cd, .col-ef {width: 310px;}
-
-.slim .col-abcdef {width: 960px;}
-.slim .col-abcd, .slim .col-cdef {width: 640px;}
-.slim .col-abc, .slim .col-def {width: 480px;}
-.slim .col-ab, .slim .col-cd, .slim .col-ef {width: 320px;}
+.col-abcdef {width: 990px;}
+.col-abcde, .col-bcdef {width: 825px;}
+.col-abcd, .col-bcde, .col-cdef {width: 660px;}
+.col-abc, .col-bcd, .col-cde, .col-def {width: 495px;}
+.col-ab, .col-bc, .col-cd, .col-de, .col-ef {width: 330px;}
+.col-a, .col-b, .col-c, .col-d, .col-e, .col-f {width: 165px;}
 
 /* =============================================================================
     Media Queries
