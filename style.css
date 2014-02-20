@@ -2,16 +2,17 @@
     Basic styles
 ============================================================================= */
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    position: relative; /* ? */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size:14px;
-    background: #99B2B7;
-    color: #333333;
+    background: #fff;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,81 +36,22 @@ p {
 }
 
 a {
-    color: #7A6A53;
+    color: #369;
 }
-
 /* =============================================================================
     Cells
 ============================================================================= */
+.cell {
+    background: #eee;
+}
+
 .cell h2 {
-    padding: 5px 0;
+    padding: 5px;
 }
 
 .cell p {
-    padding: 5px 0;
+    padding: 5px;
 }
-
-/* -----------------------------------------------------------------------------
-    header
------------------------------------------------------------------------------ */
-#header {
-    background: #948C75;
-    color: #D9CEB2;
-}
-
-/* -----------------------------------------------------------------------------
-    main menu
------------------------------------------------------------------------------ */
-#menu {
-    background: #7A6A53;
-    color: #FFFFFF;
-}
-
-#menu ul {
-    margin: 0;
-    padding: 0;
-}
-
-#menu li {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#menu a {
-    display: inline-block;
-    padding: 5px 10px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-/* -----------------------------------------------------------------------------
-    carousel
------------------------------------------------------------------------------ */
-#carousel img {
-    display: block;
-}
-
-/* -----------------------------------------------------------------------------
-    main container
------------------------------------------------------------------------------ */
-.main {
-    background: #D5DED9;
-}
-
-/* -----------------------------------------------------------------------------
-    footer
------------------------------------------------------------------------------ */
-#footer {
-    background: #948C75;
-    color: #D9CEB2;
-}
-
-#footer a {
-    color: #D9CEB2;
-}
-
 /* =============================================================================
     Grid view
 ============================================================================= */
@@ -117,62 +59,23 @@ a {
     xsmall
 ----------------------------------------------------------------------------- */
 @media all and (min-width: 0px) and (max-width: 479px) {
-    #gridview {
-        width: 320px;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 50%;
-        margin-left: -160px;
-        background: url(320.png) repeat-y;
-        opacity: 0.5;
-    }
+    
 }
-
 /* -----------------------------------------------------------------------------
     small
 ----------------------------------------------------------------------------- */
 @media all and (min-width: 480px) and (max-width: 639px) {
-    #gridview {
-        width: 480px;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 50%;
-        margin-left: -240px;
-        background: url(480.png) repeat-y;
-        opacity: 0.5;
-    }
+    
 }
-
 /* -----------------------------------------------------------------------------
     medium
 ----------------------------------------------------------------------------- */
 @media all and (min-width: 640px) and (max-width: 959px) {
-	#gridview {
-        width: 640px;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 50%;
-        margin-left: -320px;
-        background: url(640.png) repeat-y;
-        opacity: 0.5;
-    }
+	
 }
-
 /* -----------------------------------------------------------------------------
 	large
 ----------------------------------------------------------------------------- */
 @media all and (min-width: 960px) {
-    #gridview {
-        width: 960px;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 50%;
-        margin-left: -480px;
-        background: url(960.png) repeat-y;
-        opacity: 0.5;
-    }
+    
 }

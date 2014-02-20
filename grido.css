@@ -7,12 +7,28 @@
     clear: both;
     overflow: auto;
 }
-
+/* -----------------------------------------------------------------------------
+    rows
+----------------------------------------------------------------------------- */
 .row {
     clear: both;
     overflow: auto;
 }
 
+.row-abcdef {}
+.row-abc-def {}
+.row-ab-cdef {}
+.row-abcd-ef {}
+.row-ab-cd-ef {}
+.row-a-bcdef {}
+.row-a-b-cdef {}
+.row-a-bcde-f {}
+.row-a-b-c-def {}
+.row-a-b-c-d-ef {}
+.row-a-b-c-d-e-f {}
+/* -----------------------------------------------------------------------------
+    cols
+----------------------------------------------------------------------------- */
 .col {
     margin: 0;
     padding: 0;
@@ -20,18 +36,51 @@
     float: left;
 }
 
-.cell {
-    padding: 0;
-    margin: 0;
+.col-abcdef {
+    width: 990px;
 }
 
-.col-abcdef {width: 990px;}
-.col-abcde, .col-bcdef {width: 825px;}
-.col-abcd, .col-bcde, .col-cdef {width: 660px;}
-.col-abc, .col-bcd, .col-cde, .col-def {width: 495px;}
-.col-ab, .col-bc, .col-cd, .col-de, .col-ef {width: 330px;}
-.col-a, .col-b, .col-c, .col-d, .col-e, .col-f {width: 165px;}
+.col-abcde,
+.col-bcdef {
+    width: 825px;
+}
 
+.col-abcd,
+.col-bcde,
+.col-cdef {
+    width: 660px;
+}
+
+.col-abc,
+.col-bcd,
+.col-cde,
+.col-def {
+    width: 495px;
+}
+
+.col-ab,
+.col-bc,
+.col-cd,
+.col-de,
+.col-ef {
+    width: 330px;
+}
+
+.col-a,
+.col-b,
+.col-c,
+.col-d,
+.col-e,
+.col-f {
+    width: 165px;
+}
+/* -----------------------------------------------------------------------------
+    cells
+----------------------------------------------------------------------------- */
+.cell {
+    padding: 0;
+    margin: 5px;
+}
 /* =============================================================================
     Media Queries
 ============================================================================= */
@@ -45,20 +94,29 @@
     }
     
     .col-abcdef,
-    .col-abcd, .col-cdef,
-    .col-abc, .col-def,
-    .col-ab, .col-cd, .col-ef {
-        width: 310px;
-    }
-    
-    .slim .col-abcdef,
-    .slim .col-abcd, .slim .col-cdef,
-    .slim .col-abc, .slim .col-def,
-    .slim .col-ab, .slim .col-cd, .slim .col-ef {
+    .col-abcde,
+    .col-bcdef,
+    .col-abcd,
+    .col-bcde,
+    .col-cdef,
+    .col-abc,
+    .col-bcd,
+    .col-cde,
+    .col-def,
+    .col-ab,
+    .col-bc,
+    .col-cd,
+    .col-de,
+    .col-ef,
+    .col-a,
+    .col-b,
+    .col-c,
+    .col-d,
+    .col-e,
+    .col-f {
         width: 320px;
     }
 }
-
 /* -----------------------------------------------------------------------------
     small
 ----------------------------------------------------------------------------- */
@@ -69,16 +127,26 @@
     }
     
     .col-abcdef,
-    .col-abcd, .col-cdef,
-    .col-abc, .col-def,
-    .col-ab, .col-cd, .col-ef {
-        width: 470px;
-    }
-    
-    .slim .col-abcdef,
-    .slim .col-abcd, .slim .col-cdef,
-    .slim .col-abc, .slim .col-def,
-    .slim .col-ab, .slim .col-cd, .slim .col-ef {
+    .col-abcde,
+    .col-bcdef,
+    .col-abcd,
+    .col-bcde,
+    .col-cdef,
+    .col-abc,
+    .col-bcd,
+    .col-cde,
+    .col-def,
+    .col-ab,
+    .col-bc,
+    .col-cd,
+    .col-de,
+    .col-ef,
+    .col-a,
+    .col-b,
+    .col-c,
+    .col-d,
+    .col-e,
+    .col-f {
         width: 480px;
     }
 }
@@ -86,29 +154,36 @@
 /* -----------------------------------------------------------------------------
     medium
 ----------------------------------------------------------------------------- */
-@media all and (min-width: 640px) and (max-width: 959px) {
+@media all and (min-width: 640px) and (max-width: 989px) {
 	.grid,
     .row {
         width: 640px;
     }
 
     .col-abcdef {
-        width: 630px;
-    }
-    
-    .slim .col-abcdef {
         width: 640px;
     }
-
-    .col-abcd, .col-cdef,
-    .col-abc, .col-def,
-    .col-ab, .col-cd, .col-ef {
-        width: 310px;
-    }
     
-    .slim .col-abcd, .slim .col-cdef,
-    .slim .col-abc, .slim .col-def,
-    .slim .col-ab, .slim .col-cd, .slim .col-ef {
+    .col-abcde,
+    .col-bcdef,
+    .col-abcd,
+    .col-bcde,
+    .col-cdef,
+    .col-abc,
+    .col-bcd,
+    .col-cde,
+    .col-def,
+    .col-ab,
+    .col-bc,
+    .col-cd,
+    .col-de,
+    .col-ef,
+    .col-a,
+    .col-b,
+    .col-c,
+    .col-d,
+    .col-e,
+    .col-f {
         width: 320px;
     }
 }
@@ -116,6 +191,6 @@
 /* -----------------------------------------------------------------------------
 	large
 ----------------------------------------------------------------------------- */
-@media all and (min-width: 960px) {
+@media all and (min-width: 990px) {
     
 }
